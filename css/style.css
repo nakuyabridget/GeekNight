@@ -1,0 +1,80 @@
+/*
+Colors:
+1. #FA7461 (R: 250 G: 116 B: 97)
+2. #F2F3D9(	R: 242 G: 243 B: 217)
+3. #2B4141 (R: 43 G: 65 B: 65)
+
+*/
+
+
+.signup{
+	display: none;
+}
+
+body{
+	background:url(../images/background.jpg);
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-position:  center;
+
+}
+.navbar-default{
+	border-radius: 0;
+	border-color: rgba(43,65,65,0.5);
+	background-color: rgba(43,65,65,0.5);
+}
+
+.navbar-default .navbar-brand{
+	
+	font-size: 3vw;
+	color: #F2F3D9;
+	font-family: Roboto;
+	font-style: italic;
+	font-weight: bolder;
+}
+
+.navbar-default .navbar-brand:hover{
+	color: #FA7461;
+}
+
+.row h1, .row label, .row p, .row h2{
+	color: #F2F3D9;
+	font-family: Roboto;
+	text-transform: capitalize;
+	font-weight: bolder;
+
+}
+
+.row p{
+	padding-top: 2vh;
+	cursor: pointer;
+}
+
+.loginCol, .signupCol{
+	margin-top: 10vh;
+	padding: 5%;
+	background-color: rgba(43,65,65,0.5);
+}
+
+.navbar-default .navbar-nav li a{
+	color: #F2F3D9;
+}
+
+.navbar-default .navbar-nav li a:hover{
+	border-top: 3px solid #F2F3D9;
+	color: #FA7461;
+}
+
+.btn-default{
+	background-color: #FA7461;
+	color: #F2F3D9;
+	border-color: #FA7461;
+	padding: 1% 3%;
+}
+
+.btn-default:hover{
+	background-color: #FA7461;
+	color: #F2F3D9;
+	border-color: #FA7461;
+
+}
